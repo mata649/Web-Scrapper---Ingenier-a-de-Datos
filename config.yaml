@@ -1,0 +1,17 @@
+news_sites:
+  elfinanciero:
+    url: https://www.elfinancierocr.com
+    queries:
+      homepage_article_links: h1.primary-font__PrimaryFontStyles-o56yd5-0 a
+      article_body: article.default__ArticleBody-xb1qmn-2 p
+      article_title: div.col-sm-xl-12 h1.primary-font__PrimaryFontStyles-o56yd5-0
+      article_date: time.primary-font__PrimaryFontStyles-o56yd5-0
+      article_autor: span.ts-byline__names
+  lanacion:
+    url: https://www.nacion.com
+    queries:
+      homepage_article_links: h1.primary-font__PrimaryFontStyles-o56yd5-0 a
+      article_body: article.default__ArticleBody-xb1qmn-2 p
+      article_title: div.col-sm-xl-12 h1.primary-font__PrimaryFontStyles-o56yd5-0
+      article_date: time.primary-font__PrimaryFontStyles-o56yd5-0
+      article_autor: span.ts-byline__names
